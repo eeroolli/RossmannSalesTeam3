@@ -32,9 +32,9 @@ conda create --name challenv python=3.8
 conda activate challenv
 
 ## In a folder of your choice
-# create a subdirectory and copy the materials needed
+# clone from kit the materials needed. It will create a new subdirectory
 git clone git@github.com:eeroolli/RossmannSalesTeam3.git
-cd RossmannCompetitionTEAM3.git
+cd RossmannSalesTeam3
 
 # install packages that are not installed by conda
 # some people need: sudo apt install python3-pip
