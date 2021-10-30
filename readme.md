@@ -10,7 +10,15 @@ For planning purposes the Rossmann administration does probably not care about d
 Data is the Rossmann data from Kaggle, which contains daily sales figures for 1115 stores in the period 2011 to 2015. 
 
 ### Our Model
-Describe our model
+In order to solve the Rossmann challege 4 different models have been used after the data analysis,cleaning and feature engineering. These have been evaluated using  the required metrics (root mean squared percentage error.
+
+-Linear Regression:  (simplest one). Not complex enough to get high score.
+
+-RandomForest Linear Regression: Good score.
+
+-Gradientboosting: highest.
+
+-Prophet(time series): poor performance, many time independent variables.
 
 
 
