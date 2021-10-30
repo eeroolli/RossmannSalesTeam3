@@ -1,4 +1,4 @@
-# Team 3
+# Rossmann Sales Predictions - DSR Team 3
 
 Team 3 consists of Hazel, Jose and Eero
 
@@ -43,7 +43,9 @@ python data.py --test 1
 
 
 ```
-
+## The Notebooks
+he code is in .ipynb, which all have the same strucutre: Read Data, Clean Data, Prepare for Analysis, model, training, evaluation and test.
+Each notebook is complete in its own does not depend of the other notebooks.  Therefore there is some redundant code in the preparation for analysis part.
 
 
 ## Help
