@@ -52,7 +52,7 @@ python data.py --test 1
 
 ```
 ## The Notebooks
-he code is in .ipynb, which all have the same strucutre: Read Data, Clean Data, Prepare for Analysis, model, training, evaluation and test.
+The code is in .ipynb. The files are named by the model used. Each one have the same strucutre: Read Data, Clean Data, Prepare for Analysis, model, training, evaluation and test.
 Each notebook is complete in its own does not depend of the other notebooks.  Therefore there is some redundant code in the preparation for analysis part.
 
 
