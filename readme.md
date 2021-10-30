@@ -26,7 +26,7 @@ In order to solve the Rossmann challege 4 different models have been used after 
 ## Getting started
 ```bash
 # Create environment for running the model in: 
-conda env create -n challenv python=3.8
+conda create -name challenv python=3.8
 
 # Use environment
 conda activate challenv
