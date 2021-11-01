@@ -26,18 +26,23 @@ In order to solve the Rossmann challege 4 different models have been used after 
 ## Getting started
 ```bash
 # Create environment for running the model in: 
-conda create --name challenv python=3.8
+conda create --name Team3 python=3.8
 
 # Use environment
-conda activate challenv
+conda activate Team3
 
 ## In a folder of your choice
 # clone from kit the materials needed. It will create a new subdirectory
 git clone git@github.com:eeroolli/RossmannSalesTeam3.git
 cd RossmannSalesTeam3
 
-# install packages that are not installed by conda
+# install packages 
+conda config --append channels conda-forge
+conda install -c conda-forge jupyterlab
+conda install -c anaconda ipykernel
+conda install plotly=5.1.0
 # some people need: sudo apt install python3-pip
+python -m ipykernel install --user --name Team3 --display-name Team3
 pip install --upgrade pip
 pip install -r requirements.txt
 
@@ -52,7 +57,7 @@ python data.py --test 1
 
 ```
 ## The Notebooks
-The code is in .ipynb. The files are named by the model used. Each one have the same strucutre: Read Data, Clean Data, Prepare for Analysis, model, training, evaluation and test.
+The code is in .ipynb. The files are named by the model used. Each one have the same structure: Read Data, Clean Data, Prepare for Analysis, model, training, evaluation and test.
 Each notebook is complete in its own does not depend of the other notebooks.  Therefore there is some redundant code in the preparation for analysis part.
 
 
